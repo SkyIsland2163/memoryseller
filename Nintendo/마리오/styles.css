@@ -1,0 +1,55 @@
+/* substyles.css */
+
+/* 전반적인 페이지 스타일 */
+body {
+    font-family: Arial, sans-serif; /* 폰트 설정 */
+    color: #C4B999; /* 모든 텍스트의 기본 색상을 #C4B999로 설정 */
+    background-color: #16171C; /* 전체 배경색을 #16171C로 설정 */
+}
+
+/* 헤더 스타일 */
+header {
+    text-align: center; /* 텍스트를 가운데 정렬 */
+    padding: 20px 0; /* 위아래로 20px의 안쪽 여백 설정 */
+}
+
+/* 섹션 스타일 */
+section {
+    margin: 20px auto; /* 위아래로 20px의 마진, 좌우는 자동으로 설정 */
+    width: 80%; /* 너비를 80%로 설정 */
+}
+
+/* 푸터 스타일 */
+footer {
+    text-align: center; /* 텍스트를 가운데 정렬 */
+    margin-top: 50px; /* 위쪽 여백 추가 */
+}
+/* 이미지 스타일 */
+.img {
+    max-width: 300px; /* 이미지의 최대 너비를 300px로 설정 */
+    height: auto; /* 높이는 자동으로 설정하여 비율을 유지 */
+    border: 1px solid #C4B999; /* 이미지에 1px의 테두리 추가 */
+    display: block; /* 블록 요소로 설정하여 이미지가 줄 바꿈 되도록 함 */
+    margin: 20px auto; /* 위아래로 20px의 마진, 좌우는 자동으로 설정 */
+}
+
+.back-to-home {
+    text-align: center;
+    margin-top: 20px;
+}
+
+.back-to-home a {
+    text-decoration: none;
+    color: white;
+    background-color: #16171C;
+    padding: 10px 20px;
+    border: 2px solid #C4B999;
+    border-radius: 5px;
+    transition: background-color 0.3s, color 0.3s, transform 0.3s;
+}
+
+.back-to-home a:hover {
+    background-color: gray;
+    color: white;
+    transform: scale(2);
+}
